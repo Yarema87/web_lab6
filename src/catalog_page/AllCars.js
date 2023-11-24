@@ -1,5 +1,6 @@
-import React from "react";
-import { renderCars } from "./render";
+import React, { useEffect } from "react";
+import { renderCars } from "../render";
+import axios, { isCancel, AxiosError} from "axios";
 
 export const All_cars = [
     {

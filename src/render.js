@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 export function renderCars(cars) {
     return (
-    <div>
+    <div className="render">
         {cars.map((car) => (
             <div key={car.model} id="Cars_container">
                 <div className="Car_container">
