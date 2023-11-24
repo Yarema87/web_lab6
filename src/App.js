@@ -1,9 +1,8 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { All_cars } from './AllCars';
-import HomePage from './Homepage';
-import CatalogPage from './CatalogPage';
-import DetailsPage from './DetailsPage';
+import HomePage from './main_page/Homepage';
+import CatalogPage from './catalog_page/CatalogPage';
+import DetailsPage from './details_page/DetailsPage';
 
 
 function App(){
