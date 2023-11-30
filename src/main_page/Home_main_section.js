@@ -1,9 +1,9 @@
 import React from "react";
 import CarsForExample from "./cars_for_example";
 import MainParagraph from "./Main_paragraph";
-import old1 from "./images/photo_5316733247306191974_x.jpeg";
-import old2 from "./images/photo_5316733247306191975_x.jpeg";
-import logo from "./images/logo512.png"
+import old1 from "../images/photo_5316733247306191974_x.jpeg";
+import old2 from "../images/photo_5316733247306191975_x.jpeg";
+import logo from "../images/logo512.png"
 
 function MainSection(){
     return(

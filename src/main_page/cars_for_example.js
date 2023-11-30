@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { All_cars } from "./AllCars";
+import { All_cars } from "../catalog_page/AllCars";
 
 
 function CarsForExample(){
