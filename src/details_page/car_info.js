@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import { All_cars } from "./AllCars";
-import logan from "./images/logan.jpeg"
+import { All_cars } from "../catalog_page/AllCars";
+import logan from "../images/logan.jpeg"
 
 const CarInfo = () => {
     const { id } = useParams();
