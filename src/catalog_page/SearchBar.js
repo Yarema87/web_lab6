@@ -41,7 +41,7 @@ export function SearchBar({onSortByPower, onSortBySpeed, onSortByPrice, onFilter
         <button onClick={() => onSearchByModel(model)} id="search_button">Search</button>
       </span>
       <span className="filter" id="fourth_filter">
-        <button id="Apply" onClick={applyChanges}>Apply</button>
+        <button id="Apply" onClick={applyChanges}>Hide</button>
       </span>
 
     </div>
